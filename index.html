@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="sd.png" alt="" width="100px" height="100px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>WELCOME TO <span>SD</span></h1>
+            <p>" I Don't trust words. I Trust Pictures."</p>
+            <a href="" class="hero-btn">LEARN MORE</a>
+        </div>
+    </section>
+
+
+    <!-- Courses -->
+
+    <section class="course">
+        <h1>Services we offer</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia autem voluptas quisquam, ut possimus magnam
+            odit quo ratione alias odio aperiam amet quos totam. Fugiat illo hic rerum quas repudiandae!</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi error debitis laudantium deserunt,
+                    doloremque maiores non veritatis eius minus temporibus doloribus eaque blanditiis quia illo eveniet
+                    facere deleniti eligendi quod?</p>
+            </div>
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi error debitis laudantium deserunt,
+                    doloremque maiores non veritatis eius minus temporibus doloribus eaque blanditiis quia illo eveniet
+                    facere deleniti eligendi quod?</p>
+            </div>
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi error debitis laudantium deserunt,
+                    doloremque maiores non veritatis eius minus temporibus doloribus eaque blanditiis quia illo eveniet
+                    facere deleniti eligendi quod?</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
