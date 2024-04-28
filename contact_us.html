@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="contact-us.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+
+    <!-- <section class="header">
+        <nav>
+            <a href="index.html"><img src="sd.png" alt="" width="100px" height="100px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="contact_us.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section> -->
+    <section class="contact">
+            <nav>
+                <a href="index.html"><img src="sd.png" alt="" width="100px" height="100px"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <div class="content">
+            <h2>Contact us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, veritatis.</p>
+        </div>
+        <div class="container">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Lorem ipsum dolor sit. <br>Lorem, ipsum. <br>387355</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone"></i></div>
+                    <div class="text">
+                        <h3>phone</h3>
+                        <p>01213456789</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>sdphoto@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactform">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <h2>Send Message</h2>
+                    <input type="hidden" name="access_key" value="ba72438c-a612-471f-8202-a236a0de58e9">
+                    <div class="inputbox">
+                        <input type="text" name="name" id="" required>
+                        <span>Full name </span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="email" id="" required>
+                        <span>Email</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="tel" name="Number" id="" required maxlength="10">
+                        <span>Number</span>
+                    </div>
+                    <div class="inputbox">
+                        <label for="event">Choose a Event:</label>
+                        <select name="event" id="event">
+                            <option value="Wedding">Wedding</option>
+                            <option value="Pre-wedding">Pre-wedding</option>
+                            <option value="Engagement">Engagement</option>
+                            <option value="Baby-Shower">Baby-Shower</option>
+                            <option value="Birthday">Birthday</option>
+                        </select>
+                    </div>
+                    <div class="inputbox">
+                        <input type="number" name="budget" id="" required>
+                        <span>Type you Budget</span>
+                    </div>
+                    <div class="inputbox">
+                        <textarea name="message" id="" cols="25" rows="4"></textarea>
+                        <span>Type you message</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" name="" id="" required>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
