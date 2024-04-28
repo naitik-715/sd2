@@ -282,3 +282,13 @@ h3 {
     border-radius: 25px;
     border: solid 3px;
 }
+
+
+@media(max-width: 700px){
+    .offer-btn a{
+        /* color: black; */
+        background: #f44336;
+        border: solid 3px;
+        border-radius: 25px;
+    }
+}
