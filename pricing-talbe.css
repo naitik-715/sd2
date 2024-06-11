@@ -39,6 +39,7 @@ a {
 }
 
 .price-box {
+    /* background-color: #fed000; */
     margin: 10px;
     width: 265px;
     border-radius: 5px;
@@ -224,9 +225,6 @@ a {
 
 }
 
-.popular .box-top-section {
-    background-color: #fed000;
-}
 
 .price-box:hover .box-top-section,
 .price-box:hover .box-features-section {
