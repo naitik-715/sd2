@@ -19,6 +19,15 @@ align-items: center;
 width: 100%;
 min-height: 100vh;
 }
+
+#pricing-table h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
 .price-box-container{
     display: flex;
     justify-content: center;
