@@ -409,6 +409,9 @@ h3 {
     grid-row: span 2;
 } */
 
+.image-gallary{
+    margin: 20px;
+}
 
 .grid-wrapper{
     columns: 4;
@@ -436,6 +439,10 @@ h3 {
     }
 }
 
-.image-gallary{
-    margin: 20px;
+.image-gallary h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 600;
 }
